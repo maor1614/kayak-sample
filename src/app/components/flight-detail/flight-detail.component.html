@@ -1,0 +1,9 @@
+<h1 *ngIf="!flight"> Loading....</h1>
+
+<div *ngIf="flight">
+
+    <h1>{{flight.code}} </h1>
+    <h1>{{flight.from}}</h1>
+    <h1>{{flight.to}}</h1>
+    <h1>{{flight.price}}</h1>
+</div>

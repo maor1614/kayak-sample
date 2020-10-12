@@ -1,0 +1,7 @@
+<div class="list" >
+    <div class="flight-card" *ngFor="let f of fs.flighDataBase" (click)="goToDetails(f.code)" >
+        <p>{{f.code}}</p>
+        <h1>{{f.from}} - {{f.to}} </h1>
+        <h3> {{f.price}}  </h3>
+    </div>
+</div>
